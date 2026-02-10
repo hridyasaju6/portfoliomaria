@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Playpen+Sans:wght@100..800&display=swap"
+        rel="stylesheet">
+    <!-- animate style -->
+     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <!-- AOS ANIMATION -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <!-- navbar -->
+        <nav>
+            <!-- logo -->
+            <img class="logo" src="images/Logooo for Hridya.png" alt="logo">
+            <!-- links -->
+            <ul>
+                <li class="list-items"><a class="links" href="#home">HOME</a></li>
+                <li class="list-items"><a class="links" href="#about">ABOUT</a></li>
+                <li class="list-items"><a class="links" href="#skills">SKILLS</a></li>
+                <li class="list-items"><a class="links" href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+        <!-- home -->
+        <section id="home">
+            <div class="home-content">
+                <h1 class="animate__animated animate__backInDown" id="username"> I'm Hridya <span id="lname">Saju</span></h1>
+                <p id="user-details"> This is my official portfolio wesbite to showcase <br>My journey as a software
+                    developer</p>
+                <a id="download" href="./images/HRIDYA S KUMAR RESUME..pdf" download>Download CV</a>
+            </div>
+            <div class="home-img">
+                <!-- shape -->
+                <img id="shape" class="group1" src="./images/bg.png" alt="shape">
+                <!-- girl -->
+                <img id="girl" class="group1" src="./images/ladyy.png" alt="girl">
+            </div>
+        </section>
+        <!-- about -->
+        <section id="about">
+            <div class="sectionhead">
+                <h2 class="mainHead">About Me</h2>
+                <span class="subHead">Introduction</span>
+            </div>
+            <div class="aboutBody">
+                <div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="aboutImage">
+                    <img src="./images/software.png" alt="About">
+                </div>
+
+                <div class="aboutContent">
+                    <p>Passionate developer eager to turn ideas into clean, user-friendly digital experiences.
+                        Continuously learning and building with modern web technologies to grow every day.
+                        Driven by curiosity, consistency, and the goal of becoming a skilled full-stack developer.</p>
+                    <div class="informations">
+                        <div class="infobox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Hridya Saju</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>9567889767</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>hridyasaju6@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+        <!-- skills -->
+        <section id="skills">
+            <div class="sectionhead">
+                <h2 class="mainHead">Skills</h2>
+                <span class="subHead">My Skills</span>
+            </div>
+            <div class="skillcontent">
+                <div class="progressBars">
+                    <!-- potrait bars -->
+                    <div class="bars">
+                        <h3 class="barHead">Potraits</h3>
+                        <span class="barpercent">90%</span>
+                        <div class="basebar"></div>
+                        <div class="basebar potraitbar"></div>
+                    </div>
+                    <!-- landscape bars -->
+                    <div class="bars">
+                        <h3 class="barHead">Landscape</h3>
+                        <span class="barpercent">98%</span>
+                        <div class="basebar"></div>
+                        <div class="basebar landscapebar"></div>
+                    </div>
+                    <!-- edit bars -->
+                    <div class="bars">
+                        <h3 class="barHead">Editing</h3>
+                        <span class="barpercent">86%</span>
+                        <div class="basebar"></div>
+                        <div class="basebar editbar"></div>
+                    </div>
+                    <!-- wildlife bars -->
+                    <div class="bars">
+                        <h3 class="barHead">Wildlife</h3>
+                        <span class="barpercent">80%</span>
+                        <div class="basebar"></div>
+                        <div class="basebar wildlifebar"></div>
+                    </div>
+                </div>
+                <div  data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="500" class="skillimage">
+                    <img src="./images/skillssss.png" alt="skills">
+                </div>
+        </section>
+
+        <!-- contact -->
+        <section id="contact">
+            <div class="sectionhead">
+                <h2 class="mainHead">Contacts</h2>
+                <span class="subHead">My Contacts</span>
+            </div>
+            <!-- icons -->
+            <div class="iconcollection">
+                <div class="icon">
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin brand"></i></a>
+                </div>
+
+                <div class="icon">
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-github brand"></i></i></a>
+                </div>
+
+                <div class="icon">
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-instagram brand"></i></a>
+                </div>
+
+                <div class="icon">
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-whatsapp brand"></i></a>
+                </div>
+                
+                <div class="icon">
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-facebook brand"></i></i></a>
+                </div>
+            
+            </div>
+        </section>
+        <!-- footer -->
+         <footer>
+            <p id="copyright">&copy; Hridya Saju portfolio feb 2026, &reg; All Rights Reserved </p>
+          <div class="icon uparrow">
+                    <a href="#container"><i class="fa-solid fa-angle-up brand"></i></a>
+                </div>
+            </footer>
+    </div>
+</body>
+<!-- AOS script -->
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+  AOS.init();
+</script>
+
+</html>
